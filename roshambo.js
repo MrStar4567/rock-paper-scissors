@@ -11,14 +11,14 @@ function getComputerChoice(){
     }
 }
 
-//console.log(getComputerChoice());
+
 
 function getHumanChoice(){
     let humanChoice = prompt("Pick Rock, Paper, or Scissors");
     return humanChoice;
 }
 
-//console.log(getHumanChoice());
+
 
 function playGame(){
     let humanScore = 0;
